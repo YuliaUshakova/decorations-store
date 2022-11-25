@@ -38,7 +38,7 @@ const articlesData = [
     },
     { id: 7,
         name: 'Set of 4 festive candles, red',
-        img: 'candle-set',
+        img: 'cande-set',
         price: 16,
         category: 'SETS'
     },
@@ -107,7 +107,7 @@ const articlesData = [
         img: 'polar-bear-solitaire',
         price: 21,
         category: 'DECO'
-    },
+    }
 ]
 
 export default articlesData

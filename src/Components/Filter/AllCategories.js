@@ -2,8 +2,8 @@ import Filter from './Filter';
 
 const AllCategories = () => {
     return (<div>
-       <h1>SELECT FROM OUR LIST</h1>
-       {['SOLO', 'DECO', 'SETS'].map(category => <Filter category = {category}/>
+       <h3>OUR SELECTION</h3>
+       {['DECO', 'SOLO', 'SETS', 'ALL'].map(category => <Filter category = {category}/>
     )}
     </div>)
 }
