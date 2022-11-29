@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/decorations-store/static/css/main.637ca8e8.css",
+    "main.js": "/decorations-store/static/js/main.2ba4ed42.js",
+    "static/js/787.9cf35415.chunk.js": "/decorations-store/static/js/787.9cf35415.chunk.js",
+    "index.html": "/decorations-store/index.html",
+    "main.637ca8e8.css.map": "/decorations-store/static/css/main.637ca8e8.css.map",
+    "main.2ba4ed42.js.map": "/decorations-store/static/js/main.2ba4ed42.js.map",
+    "787.9cf35415.chunk.js.map": "/decorations-store/static/js/787.9cf35415.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.637ca8e8.css",
+    "static/js/main.2ba4ed42.js"
+  ]
+}
