@@ -79,7 +79,7 @@ const articlesData = [
         category: 'SETS'
     },
     { id: 14,
-        name: 'Set of 5 paper start, various sizes',
+        name: 'Set of 5 paper stars, various sizes',
         img: 'deco-stars-set',
         price: 38,
         category: 'DECO'

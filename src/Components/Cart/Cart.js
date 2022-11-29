@@ -9,7 +9,7 @@ const Cart = () => {
     return (<div>
         <img src="https://img.icons8.com/fluency-systems-regular/48/null/shopping-cart.png" alt="shoppingCart" width="30px"/>
         <h3>TOTAL: ${totalPrice}</h3>
-        {cartItems.map(cartItem => <CartItem cartItem={cartItem}/>)}
+        {cartItems.map((cartItem, index) => <CartItem key={index} cartItem={cartItem}/>)}
     </div>)
 }
 

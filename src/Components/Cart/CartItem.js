@@ -6,7 +6,7 @@ const CartItem = ({cartItem}) => {
     const articles = articlesData.find(item => item.id === cartItem.articleId);
     const dispatch = useDispatch();
 
-    return (<div>
+    return (<div className="cart">
         <p>{articles.name}</p>
         <p>{cartItem.quantity} item(s)</p>
         <img src={`./${articles.img}.jpg`} alt="smallArticle" width="100px"/>

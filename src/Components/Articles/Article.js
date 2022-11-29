@@ -10,7 +10,7 @@ const Article = ({article}) => {
     return(<div className="articleDetails">
         <h3>{article.name}</h3>
         <p> $ {article.price}</p>
-        <img src={`./${article.img}.jpg`} alt="article" width="400px"/>
+        <img className="artPicture" src={`./${article.img}.jpg`} alt="article" width="400px"/>
         <br/>
         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
         <br/>
