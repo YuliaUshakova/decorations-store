@@ -4,17 +4,13 @@ import Articles from "./Components/Articles/Articles";
 
 function App() {
   return (<div className="App">
-    <div className="main">
-    <div className="cartStyle sticky">
-      <AllCategories/>
-      <Cart/>
-        </div>
-        <div className="block">
+    <div className="sticky">
+      <AllCategories/>   
+      <Cart/>    
+    </div>
         <Articles/>
-      </div> 
-      </div>
-      </div>
-);
+        </div>
+  );
 }
 
 export default App;
