@@ -13,7 +13,7 @@ const Articles = () => {
             if (selectedCategory === 'ALL') return true;
             return selectedCategory === article.category;
         })
-        .map((article, id) => <Article article={article}/>)}
+        .map(article => <Article key={article.id} article={article}/>)}
     </div>)
 }
 
