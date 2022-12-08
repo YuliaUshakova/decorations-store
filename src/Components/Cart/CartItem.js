@@ -9,7 +9,8 @@ const CartItem = ({cartItem}) => {
     return (<div className="cart">
         <p>{articles.name}</p>
         <p>{cartItem.quantity} item(s)</p>
-        <img src={`./${articles.img}.jpg`} alt="smallArticle" width="100px"/>
+        <img className="artPicture" src={process.env.PUBLIC_URL + `/${articles.img}.jpg`} alt="article"/>
+        {/* <img src={`./${articles.img}.jpg`} alt="smallArticle" width="100px"/> */}
         <p>$ {articles.price * cartItem.quantity}</p>
         <span onClick={() => dispatch(removeItemFromCart({
             cartItemId: cartItem.id}))}>

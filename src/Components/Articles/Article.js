@@ -10,7 +10,8 @@ const Article = ({article}) => {
     return(<div className="articleDetails">
         <h3>{article.name}</h3>
         <p> $ {article.price}</p>
-        <img className="artPicture" src={`./${article.img}.jpg`} alt="article"/>
+        <img className="artPicture" src={process.env.PUBLIC_URL + `/${article.img}.jpg`} alt="article"/>
+        {/* <img className="artPicture" src={`./${article.img}.jpg`} alt="article"/> */}
         <br/>
         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
         <br/>
